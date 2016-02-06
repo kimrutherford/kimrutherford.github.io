@@ -128,7 +128,7 @@ a.linkedin:before, a[href*='linkedin.com']:before {
 /* line 106, ../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
-  line-height: 1.4375em;
+  line-height: 1.25em;
 }
 
 /* line 13, ../../stylesheets/style.scss */
@@ -164,19 +164,19 @@ em {
 /* line 24, ../../stylesheets/style.scss */
 h1 {
   font-size: 2em;
-  line-height: 1.4375em;
+  line-height: 1.25em;
 }
 
 /* line 25, ../../stylesheets/style.scss */
 h2 {
   font-size: 1.5em;
-  line-height: 1.4375em;
+  line-height: 1.25em;
 }
 
 /* line 26, ../../stylesheets/style.scss */
 h3 {
   font-size: 1.2em;
-  line-height: 1.19792em;
+  line-height: 1.04167em;
 }
 
 /* line 28, ../../stylesheets/style.scss */
@@ -190,7 +190,7 @@ p, dt {
 /* line 35, ../../stylesheets/style.scss */
 a {
   text-decoration: none;
-  color: inherit;
+  color: #006;
 }
 /* line 47, ../../stylesheets/style.scss */
 a.social:before {
@@ -229,7 +229,7 @@ header [itemprop='address'] {
     width: 100%;
     float: right;
     margin-right: 0;
-    margin-bottom: 1.4375em;
+    margin-bottom: 1.25em;
   }
   /* line 80, ../../stylesheets/style.scss */
   header .details {
@@ -239,7 +239,7 @@ header [itemprop='address'] {
   }
   /* line 84, ../../stylesheets/style.scss */
   header img {
-    margin-bottom: 1.4375em;
+    margin-bottom: 1.25em;
     width: 100%;
     float: right;
     margin-right: 0;
@@ -250,8 +250,8 @@ header [itemprop='address'] {
   header img {
     padding-left: 25.42373%;
     padding-right: 25.42373%;
-    margin-top: 1.4375em;
-    margin-bottom: 1.4375em;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
@@ -267,7 +267,7 @@ header [itemprop='address'] {
   }
   /* line 108, ../../stylesheets/style.scss */
   header.with-photo #title h2 {
-    margin-bottom: 0.71875em;
+    margin-bottom: 0.625em;
   }
   /* line 111, ../../stylesheets/style.scss */
   header.with-photo .details {
@@ -334,7 +334,7 @@ section {
 }
 /* line 166, ../../stylesheets/style.scss */
 section > p {
-  margin-top: 1.4375em;
+  margin-top: 1.25em;
   width: 100%;
   float: right;
   margin-right: 0;
@@ -342,7 +342,7 @@ section > p {
 }
 /* line 174, ../../stylesheets/style.scss */
 section > h2 {
-  margin-top: 0.95833em;
+  margin-top: 0.83333em;
   width: 100%;
   float: right;
   margin-right: 0;
@@ -354,14 +354,14 @@ section > h2:before {
   display: inline-block;
   margin-right: 1.69492%;
   width: 13.55932%;
-  height: 0.47917em;
-  margin-bottom: 0.23958em;
+  height: 0.41667em;
+  margin-bottom: 0.20833em;
   background-color: #bfbfbf;
 }
 /* line 190, ../../stylesheets/style.scss */
 section > h3 {
   margin-left: 16.94915%;
-  margin-top: 1.19792em;
+  margin-top: 1.04167em;
   width: 83.05085%;
   float: left;
   margin-right: 1.69492%;
@@ -378,7 +378,7 @@ section > dl dl {
 }
 /* line 206, ../../stylesheets/style.scss */
 section:not(.listing) > dl > dt, section:not(.listing) > dl > dd, section.listing > dl > dt:first-of-type, section.listing > dl > dd:first-of-type {
-  margin-top: 1.4375em;
+  margin-top: 1.25em;
 }
 /* line 211, ../../stylesheets/style.scss */
 section dt {
@@ -400,11 +400,11 @@ section dd dt {
 }
 /* line 227, ../../stylesheets/style.scss */
 section.jumbotron {
-  margin-top: 1.4375em;
+  margin-top: 1.25em;
   width: 100%;
   float: right;
   margin-right: 0;
-  margin-bottom: 1.4375em;
+  margin-bottom: 1.25em;
 }
 /* line 228, ../../stylesheets/style.scss */
 section.jumbotron h1, section.jumbotron h2 {
@@ -421,10 +421,10 @@ footer {
   width: 100%;
   float: right;
   margin-right: 0;
-  margin-top: 1.4375em;
-  padding-top: 1.4375em;
-  padding-bottom: 1.4375em;
-  margin-bottom: 1.4375em;
+  margin-top: 1.25em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  margin-bottom: 1.25em;
   text-align: center;
 }
 /* line 251, ../../stylesheets/style.scss */
@@ -439,7 +439,7 @@ footer li:before {
 }
 /* line 252, ../../stylesheets/style.scss */
 footer p {
-  margin-top: 1.4375em;
+  margin-top: 1.25em;
 }
 
 @media screen {
