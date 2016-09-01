@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/kmr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kmr.bioinformatics.nz
+  * I am kmr (https://keybase.io/kmr) on keybase.
+  * I have a public key with fingerprint B1BB 97AE 7037 F483 E6A5  DAAA DE70 1B90 BCDE 8476
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101284f31a05adc2e1e6fe8b371eaebe4b71e74aa2f7f649aa3dde899231603191c0a",
+            "fingerprint": "b1bb97ae7037f483e6a5daaade701b90bcde8476",
+            "host": "keybase.io",
+            "key_id": "de701b90bcde8476",
+            "kid": "0101284f31a05adc2e1e6fe8b371eaebe4b71e74aa2f7f649aa3dde899231603191c0a",
+            "uid": "889852d7f8dcd24edf15251391943b19",
+            "username": "kmr"
+        },
+        "service": {
+            "hostname": "kmr.bioinformatics.nz",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472690652,
+    "expire_in": 157680000,
+    "prev": "33addc1076e6f80d87fbdbe29f5de94c416603943e6adc2bfe3341471b3a50d8",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJZSFVBGL5WpmkrPZWtpwdfbnbmzNnmFgUVSdimWLciuMycmXMdzHNu
+557rVetKJaj5FO0LRBstKIkPPWTQIkGJJSGCmYVU0k5R1FvbHCl66bF5mZl/vu+b
+7/9m7kwaG8rLUgeHmvqnvCvL6rl9IhWK3q19slMiLq2VIjulSjY6se2UJf1YJadS
+RJKBDBRTtSHAsoappTDAdJuZBBqAYUaYSsTCUDFWbMPWVYQxpJSZCCkQ6DIECFgy
+lsKSzZ048xIed3whSwAhyMDMkKFhqyZkOtYoxpiKCiBIJpbQUA1dECvcZMAQ5ghO
+siLuiprYxEbt/QP/n32nRuVME5maQg3bpBZVVEZtoCkagAggFRKAAmCSeQ6uYoHX
+Kk/KhCVRqOYWCzINmvh7WES4yx3b9aqwz61kkVMn+AnP9V3L3S4gFb6fiAQKfm0i
+oKQZif0WixHuUBGlIFQzL8ldR4oAgbR8HqgD1VB0JOuaEpZYTYJ7LMYDhGbopixG
+cA2rFpIQYkotIBu6iMWUqWnYhBKmIFujDKmWCnSRgmhOvIxIj9gMQlWoAwKxJuBS
+0N4Ox5UiUNjEcSGZ5HEH+ymPSZmuW9vGhbLyQuOzxwRfLJQ3Yeqfj5e3IOfn+sHe
+Iz379z5qGBlagfraNhdcvdsH6yfOvTanJn55zZrXr0qNZwMHV8tL3x+PTlU2DY20
+LO/YFr+zNZXOWXhffVB85Y01XP4lWXhr8rfeCTfScPr+2R93z0FdnZmP8xs3XEel
+ky/MLFw88/vRjkQ6VVL+Zd/GY/2Ni4rdlzy/Oufiuof8yJKa7vbysmkle85XdmIS
+jS5fmaGLW+xz97qjl7oKW+Xer7UzXvNTuaucZW3Fh5/WhU80NzYMF6773Pgm98zJ
+8c3oZlbdlnh618nQj7PW3g/1aw89N21Vy1EL2ksq8jtfFaRbM1uyT8/7NGtDw7hw
+qcMOvOBNjwfMt+dqtIKrvwDcJ0DN
+=Uo+L
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kmr
+
+==================================================================
+
