@@ -153,7 +153,7 @@ body:after {
 @media (min-width: 801px) and (max-width: 1000px) {
   /* line 20, ../../stylesheets/style.scss */
   body {
-    padding: 1vw;
+    padding: 1.5vw;
   }
 
   /* line 23, ../../stylesheets/style.scss */
@@ -165,12 +165,12 @@ body:after {
 @media (max-width: 800px) {
   /* line 29, ../../stylesheets/style.scss */
   body {
-    padding: 0.8vw;
+    padding: 1.2vw;
   }
 
   /* line 32, ../../stylesheets/style.scss */
   section.level2 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     line-height: normal;
   }
 }
