@@ -430,25 +430,26 @@ section dt {
 /* line 246, ../../stylesheets/style.scss */
 section dd dd {
   margin-left: 1.5em;
+  padding-right: 0.8em;
 }
-/* line 250, ../../stylesheets/style.scss */
+/* line 251, ../../stylesheets/style.scss */
 section dd dd::before {
   content: '\203a';
   padding: 0.5em;
   color: #a0a0a0;
   margin-left: -1.3em;
 }
-/* line 257, ../../stylesheets/style.scss */
+/* line 258, ../../stylesheets/style.scss */
 section dd {
   width: 77.11864%;
   float: right;
   margin-right: 0;
 }
-/* line 260, ../../stylesheets/style.scss */
+/* line 261, ../../stylesheets/style.scss */
 section dd dt {
   font-style: italic;
 }
-/* line 267, ../../stylesheets/style.scss */
+/* line 268, ../../stylesheets/style.scss */
 section.jumbotron {
   margin-top: 1.64706em;
   width: 100%;
@@ -456,17 +457,17 @@ section.jumbotron {
   margin-right: 0;
   margin-bottom: 1.64706em;
 }
-/* line 268, ../../stylesheets/style.scss */
+/* line 269, ../../stylesheets/style.scss */
 section.jumbotron h1, section.jumbotron h2 {
   display: none;
 }
-/* line 276, ../../stylesheets/style.scss */
+/* line 277, ../../stylesheets/style.scss */
 section.jumbotron, section.jumbotron p {
   text-align: center;
 }
 
 /* Footer */
-/* line 284, ../../stylesheets/style.scss */
+/* line 285, ../../stylesheets/style.scss */
 footer {
   width: 100%;
   float: right;
@@ -477,23 +478,23 @@ footer {
   margin-bottom: 1.64706em;
   text-align: center;
 }
-/* line 291, ../../stylesheets/style.scss */
+/* line 292, ../../stylesheets/style.scss */
 footer li {
   display: inline;
 }
-/* line 291, ../../stylesheets/style.scss */
+/* line 292, ../../stylesheets/style.scss */
 footer li:before {
   content: '\25CF';
   padding: 10px;
   color: #a0a0a0;
 }
-/* line 292, ../../stylesheets/style.scss */
+/* line 293, ../../stylesheets/style.scss */
 footer p {
   margin-top: 1.64706em;
 }
 
 @media screen {
-  /* line 300, ../../stylesheets/style.scss */
+  /* line 301, ../../stylesheets/style.scss */
   #qrcode {
     display: none;
   }
@@ -508,12 +509,12 @@ footer p {
     padding: 0;
     /* too bad @page is not well supported */
   }
-  /* line 331, ../../stylesheets/style.scss */
+  /* line 332, ../../stylesheets/style.scss */
   body {
     min-width: 58.35294em;
   }
 
-  /* line 333, ../../stylesheets/style.scss */
+  /* line 334, ../../stylesheets/style.scss */
   #qrcode {
     width: 20.45455%;
     float: left;
@@ -521,43 +522,43 @@ footer p {
     max-width: 5.88235em;
   }
 
-  /* line 340, ../../stylesheets/style.scss */
+  /* line 341, ../../stylesheets/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }
 
-  /* line 341, ../../stylesheets/style.scss */
+  /* line 342, ../../stylesheets/style.scss */
   dt {
     page-break-after: avoid !important;
   }
 
-  /* line 342, ../../stylesheets/style.scss */
+  /* line 343, ../../stylesheets/style.scss */
   dd, p {
     page-break-before: avoid !important;
   }
 
-  /* line 343, ../../stylesheets/style.scss */
+  /* line 344, ../../stylesheets/style.scss */
   dl, dt, dd, p {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 344, ../../stylesheets/style.scss */
+  /* line 345, ../../stylesheets/style.scss */
   dt, dd, p {
     page-break-inside: avoid !important;
   }
 
-  /* line 345, ../../stylesheets/style.scss */
+  /* line 346, ../../stylesheets/style.scss */
   .page-breaker {
     page-break-before: always;
   }
 }
-/* line 348, ../../stylesheets/style.scss */
+/* line 349, ../../stylesheets/style.scss */
 section dl dl {
   padding: 10px;
 }
 
-/* line 353, ../../stylesheets/style.scss */
+/* line 354, ../../stylesheets/style.scss */
 .nobr {
   white-space: nowrap;
 }
