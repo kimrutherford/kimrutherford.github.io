@@ -1,2 +1,2 @@
-https://kmr.bioinformatics.nz
+https://kmr.nz
 
