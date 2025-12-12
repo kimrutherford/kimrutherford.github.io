@@ -107,7 +107,7 @@ section > h2:before {
 .level2 h2 {
   font-size: 1.4em;
 }
-section li {
+#skills li {
   margin-left: 1.5em;
 }
 section dd dt {
@@ -154,6 +154,8 @@ section dd dt {
 }
 .social-links {
   font-size: 1.4em;
+}
+.top-links {
   margin-bottom: 1.6em;
 }
 .social-links li {
@@ -161,9 +163,13 @@ section dd dt {
 }
 .social-links li:before {
   content: '\25CF';
-  padding: 10px;
+  padding: 6px;
   color: #a0a0a0;
 }
+.social-links li img {
+  padding-right: 0.2em;
+}
+
 .social-links p {
   margin-top: 1em;
 }
@@ -177,7 +183,11 @@ a[href^="http"]:before, a[href^="mailto:"]:before, a.phone:before, a.mobile:befo
   -moz-osx-font-smoothing: grayscale;
   padding-right: 5px;
 }
-a[href^="http"]:before {
+
+a.ext-link:before,
+#work-experience a[href^="http"]:before,
+#publications dl a[href^="http"]:before,
+#book-chapters a[href^="http"]:before {
   content: "" !important;
 }
 a.github:before, a[href*='github.com']:before {
@@ -210,7 +220,7 @@ a {
     </div>
     <ul id="head-details">
       <li><a href="mailto:kmr@kmr.nz">kmr@kmr.nz</a></li>
-      <li><a href="https://kmr.nz" itemprop="url" title="homepage">https://kmr.nz</a></li>
+      <li><a href="https://kmr.nz" class="ext-link" itemprop="url" title="homepage">https://kmr.nz</a></li>
       <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <span itemprop="addressLocality">Dunedin, </span>
         <span itemprop="addressCountry">New Zealand</span>
@@ -220,17 +230,25 @@ a {
 
   <body>
 
-<div class="social-links">
+<div class="social-links top-links">
 <ul>
-<li><a href="https://github.com/kimrutherford">kimrutherford</a></li>
-<li><a href="https://orcid.org/0000-0001-6277-726X">ORCID</a></li>
-<li><a
-href="https://scholar.google.co.nz/citations?user=63wyizYAAAAJ">Google
-Scholar</a></li>
-<li><a href="kim-rutherford-cv.pdf">PDF</a></li>
+<li>
+<a href="https://github.com/kimrutherford">kimrutherford</a>
+</li>
+<li>
+<a href="https://orcid.org/0000-0001-6277-726X">
+<img src="ORCID-iD_icon_32x32.png" style="width: 0.8em;" alt="ORCID iD icon"/>
+ORCID </a>
+</li>
+<li>
+<a href="https://scholar.google.co.nz/citations?user=63wyizYAAAAJ" class="ext-link">Google
+Scholar</a>
+</li>
+<li>
+<a href="kim-rutherford-cv.pdf">PDF</a>
+</li>
 </ul>
 </div>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-55LZDGSCTQ"></script>
 <script>
@@ -411,22 +429,32 @@ The Sanger Institute
 </section>
 <section id="publications" class="level2">
 <h2>Publications</h2>
-<div style="font-size: 90%; padding: 0.2em 0 0 8em;">
-<p><span style="display: inline-block"><span
-style="color: grey;">●</span> <a
-href="https://scholar.google.co.nz/citations?hl=en&amp;user=63wyizYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google
-Scholar</a></span> <span style="display: inline-block"><span
-style="color: grey;">●</span> <a
-href="https://orcid.org/0000-0001-6277-726X">ORCID</a></span> <span
-style="display: inline-block"><span style="color: grey;">●</span> <a
-href="https://europepmc.org/authors/0000-0001-6277-726X">Europe
-PMC</a></span> <span style="display: inline-block"><span
-style="color: grey;">●</span> <a
-href="https://www.researcherid.com/rid/Y-7995-2018">ResearcherID</a></span>
-<span style="display: inline-block"><span style="color: grey;">●</span>
+<div class="social-links"
+style="font-size: 90%; padding: 0.2em 0 0 8em;">
+<ul>
+<li>
 <a
-href="https://www.scopus.com/authid/detail.uri?authorId=7007171631">Scopus
-profile</a></span></p>
+href="https://scholar.google.co.nz/citations?hl=en&amp;user=63wyizYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate"
+class="ext-link">Google Scholar</a>
+</li>
+<li>
+<a href="https://orcid.org/0000-0001-6277-726X">
+<img src="ORCID-iD_icon_32x32.png" style="width: 0.8em;" alt="ORCID iD icon"/>
+ORCID </a>
+</li>
+<li>
+<a href="https://europepmc.org/authors/0000-0001-6277-726X"
+class="ext-link">Europe PMC</a>
+</li>
+<li>
+<a href="https://www.researcherid.com/rid/Y-7995-2018"
+class="ext-link">ResearcherID</a>
+</li>
+<li>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=7007171631"
+class="ext-link">Scopus profile</a>
+</li>
+</ul>
 </div>
 <dl>
 <dt>Oct 2025</dt>
