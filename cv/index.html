@@ -29,6 +29,19 @@ body {
   font-weight: 400;
   line-height: 1.9em;
 }
+@media (min-width: 800px) and (max-width: 1000px) {
+  body {font-size: 90%;}
+}
+@media (min-width: 700px) and (max-width: 799px) {
+  body {font-size: 80%;}
+}
+@media (min-width: 600px) and (max-width: 699px) {
+  body {font-size: 72%;}
+}
+@media (max-width: 599px) {
+  body {font-size: 1.7vw;}
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -160,6 +173,7 @@ section dd dt {
 }
 .social-links li {
   display: inline;
+  white-space: nowrap;
 }
 .social-links li:before {
   content: '\25CF';
