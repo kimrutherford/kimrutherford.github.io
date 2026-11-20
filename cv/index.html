@@ -236,6 +236,11 @@ a {
   text-decoration: none;
   color: #118;
 }
+@media print {
+  .cv-pdf {
+      display: none !important;
+  }
+}
 </style>
 
 </head>
@@ -274,7 +279,7 @@ ORCID </a>
 <a href="https://scholar.google.co.nz/citations?user=63wyizYAAAAJ" class="ext-link">Google
 Scholar</a>
 </li>
-<li>
+<li class="cv-pdf">
 <a href="kim-rutherford-cv.pdf">PDF</a>
 </li>
 </ul>
@@ -299,8 +304,7 @@ data.</p>
 <ul>
 <li>Software development</li>
 <li>Genome assembly, annotation and analysis</li>
-<li>Processing, management and analysis of next generation sequencing
-data</li>
+<li>Processing, management and analysis of sequencing data</li>
 <li>Database administration and maintenance</li>
 <li>Systems administration</li>
 </ul>
