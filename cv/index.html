@@ -29,16 +29,21 @@ body {
   font-weight: 400;
   line-height: 2.1em;
 }
-@media (min-width: 800px) and (max-width: 1000px) {
+@media print {
+  body {
+    font-size: 6pt;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
   body {font-size: 90%;}
 }
-@media (min-width: 700px) and (max-width: 799px) {
+@media screen and (min-width: 700px) and (max-width: 799px) {
   body {font-size: 80%;}
 }
-@media (min-width: 600px) and (max-width: 699px) {
+@media screen and (min-width: 600px) and (max-width: 699px) {
   body {font-size: 72%;}
 }
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
   body {font-size: 1.7vw;}
 }
 
@@ -131,7 +136,7 @@ section dd dt {
 }
 section > dl {
   width: 100%;
-  float: right;
+/*  float: right;*/
   margin-right: 0;
 }
 section > dl dl {
@@ -141,6 +146,9 @@ section dt {
   float: left;
   margin-right: 0;
   text-align: right;
+  clear: both;
+}
+.level2 {
   clear: both;
 }
 @media (min-width: 900px) {
@@ -674,7 +682,8 @@ href="https://doi.org/10.1126/sciadv.aaw7006">DOI:
 </dd>
 <dt>July 2019</dt>
 <dd>
-<strong>Molecular structure of sauropsid β-keratins from tuatara
+<strong>Molecular structure of sauropsid <span
+class="math inline"><em>β</em></span>-keratins from tuatara
 (<em>Sphenodon punctatus</em>)</strong><br />
 D. Parry, R. Fraser, L. Alibardi, K. Rutherford, N. Gemmell<br />
 <em>Journal of Structural Biology</em> <a
@@ -782,7 +791,8 @@ href="https://doi.org/10.1186/s12864-017-4197-1">DOI:
 <dd>
 <strong>Identification of sex differences in zebrafish (<em>Danio
 rerio</em>) brains during early sexual differentiation and
-masculinisation using 17α-methyltestoterone</strong><br />
+masculinisation using 17<span
+class="math inline"><em>α</em></span>-methyltestoterone</strong><br />
 S.L.J. Lee, J.A. Horsfield, M.A. Black, K.M. Rutherford, N.J.
 Gemmell<br />
 <em>Biology of Reproduction</em> <a
@@ -812,8 +822,9 @@ href="https://doi.org/10.1098/rspb.2017.0853">DOI:
 </dd>
 <dt>July 2017</dt>
 <dd>
-<strong>Histological and transcriptomic effects of
-17α-methyltestosterone on zebrafish gonad development</strong><br />
+<strong>Histological and transcriptomic effects of 17<span
+class="math inline"><em>α</em></span>-methyltestosterone on zebrafish
+gonad development</strong><br />
 S.L.J. Lee, J.A. Horsfield, M.A. Black, K. Rutherford, A. Fisher, N.J.
 Gemmell<br />
 <em>BMC Genomics</em> <a
@@ -1138,7 +1149,7 @@ href="https://doi.org/10.1093/bioinformatics/16.10.944">DOI:
 </dd>
 <dt>Sep 2000</dt>
 <dd>
-<strong>Analysis of 114 kb of DNA sequence from fission yeast chromosome
+<strong>Analysis of 114 kb of DNA sequence from fission yeast chromosome
 2 immediately centromere‐distal to <em>his5</em>.</strong><br />
 Z. Xiang <em>et al.</em><br />
 <em>Yeast</em> <a
